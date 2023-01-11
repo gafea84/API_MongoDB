@@ -1,0 +1,30 @@
+GET http://localhost:3000/api/autores
+
+###
+
+POST http://localhost:3000/api/autores
+Content-Type: application/json
+
+{
+    "nombre":"Antonio",
+    "email":"antonio@hotmail.com",
+    "imagen":"www.picshare.com/imagesfree"
+}
+
+
+###
+
+PUT  http://localhost:3000/api/autores
+Content-Type: application/json
+
+{
+    "nombre":"Antonio",
+    "email":"antonionuevo@hotmail.com",
+    "imagen":"www.picshare.com/imagesfree"
+}
+
+###
+
+DELETE   http://localhost:3000/api/autores
+
+
